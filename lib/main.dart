@@ -30,7 +30,7 @@ class LoginPage extends StatelessWidget {
             const Center(
               child: CircleAvatar(
                 radius: 60,
-                backgroundColor: Colors.blue,
+                backgroundColor: Colors.purple,
                 child: Icon(
                   Icons.person,
                   size: 80,
@@ -73,7 +73,7 @@ class LoginPage extends StatelessWidget {
                   );
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.blue,
+                  primary: Colors.purple,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
@@ -87,7 +87,7 @@ class LoginPage extends StatelessWidget {
               child: Text(
                 'Forget Password?',
                 style: TextStyle(
-                  color: Colors.blue,
+                  color: Colors.purple,
                 ),
               ),
             ),
@@ -96,7 +96,7 @@ class LoginPage extends StatelessWidget {
             ElevatedButton(
               onPressed: () {},
               style: ElevatedButton.styleFrom(
-                primary: Colors.blue,
+                primary: Colors.purple,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10),
                 ),
@@ -157,7 +157,7 @@ class SearchPage extends StatelessWidget {
                       children: [
                         Row(
                           children: [
-                            Icon(Icons.location_on, color: Colors.blue),
+                            Icon(Icons.location_on, color: Colors.purple),
                             SizedBox(width: 8),
                             Text('Location 1'),
                           ],
@@ -181,7 +181,7 @@ class SearchPage extends StatelessWidget {
                           height: 40,
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
-                            color: Colors.blue,
+                            color: Colors.purple,
                           ),
                           child: Icon(
                             Icons.arrow_upward,
@@ -194,7 +194,7 @@ class SearchPage extends StatelessWidget {
                           height: 40,
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
-                            color: Colors.blue,
+                            color: Colors.purple,
                           ),
                           child: Icon(
                             Icons.arrow_downward,
@@ -221,7 +221,7 @@ class SearchPage extends StatelessWidget {
                       children: [
                         Row(
                           children: [
-                            Icon(Icons.location_on, color: Colors.blue),
+                            Icon(Icons.location_on, color: Colors.purple),
                             SizedBox(width: 8),
                             Text('Location 1'),
                           ],
@@ -245,7 +245,7 @@ class SearchPage extends StatelessWidget {
                           height: 40,
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
-                            color: Colors.blue,
+                            color: Colors.purple,
                           ),
                           child: Icon(
                             Icons.arrow_upward,
@@ -258,7 +258,7 @@ class SearchPage extends StatelessWidget {
                           height: 40,
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
-                            color: Colors.blue,
+                            color: Colors.purple,
                           ),
                           child: Icon(
                             Icons.arrow_downward,
@@ -331,7 +331,7 @@ class LocationPage extends StatelessWidget {
                       children: [
                         Row(
                           children: [
-                            Icon(Icons.location_on, color: Colors.blue),
+                            Icon(Icons.location_on, color: Colors.purple),
                             SizedBox(width: 8),
                             Text('Location 1'),
                           ],
@@ -384,7 +384,7 @@ class LocationPage extends StatelessWidget {
                       children: [
                         Row(
                           children: [
-                            Icon(Icons.location_on, color: Colors.blue),
+                            Icon(Icons.location_on, color: Colors.purple),
                             SizedBox(width: 8),
                             Text('Location 1'),
                           ],
